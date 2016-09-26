@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:8.6
 MAINTAINER mps299792458@gmail.com
 
 RUN echo 'APT::Install-Recommends 0;' >> /etc/apt/apt.conf.d/01norecommends \
