@@ -1,4 +1,4 @@
-FROM debian:8.6
+FROM debian:stretch-20170723
 LABEL maintainer "mps299792458@gmail.com" \
       com.katsutoshihorie.version="9.1.20170723"
 
