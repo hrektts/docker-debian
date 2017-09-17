@@ -1,6 +1,6 @@
-FROM debian:stretch-20170723
+FROM debian:stretch-20170907
 LABEL maintainer="mps299792458@gmail.com" \
-      version="9.1.20170723"
+      version="9.1.20170907"
 
 RUN echo 'APT::Install-Recommends 0;' >> /etc/apt/apt.conf.d/01norecommends \
  && echo 'APT::Install-Suggests 0;' >> /etc/apt/apt.conf.d/01norecommends \
